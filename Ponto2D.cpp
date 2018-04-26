@@ -14,3 +14,10 @@ Ponto2D::~Ponto2D()
     delete [] x;
     delete [] y;
 }
+
+
+void Ponto2D::impPto(int *x, int *y)
+{
+    cout << "Coordenada ponto X ("<< x[0] << "," << x[1] << endl;
+    cout << "Coordenada ponto X ("<< y[0] << "," << y[1] << endl;
+}
