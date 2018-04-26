@@ -5,8 +5,8 @@ using namespace std;
 
 Ponto2D::Ponto2D(int* x, int* y)
 {
-    x= new int [2];
-    y= new int [2];
+    x= new int;
+    y= new int;
 }
 
 Ponto2D::~Ponto2D()
@@ -16,8 +16,7 @@ Ponto2D::~Ponto2D()
 }
 
 
-void Ponto2D::impPto(int *x, int *y)
+void Ponto2D::impPto()
 {
-    cout << "Coordenada ponto X ("<< x[0] << "," << x[1] << endl;
-    cout << "Coordenada ponto X ("<< y[0] << "," << y[1] << endl;
+    cout << "Coordenada ponto p ("<< x << "," << y << ")" endl;
 }

@@ -9,7 +9,7 @@ public:
     void setPto(int *px, int *py);
     int getPto(int *px, int *py);
     float dist(int*, int*);
-    void impPto(int *px, int *py);
+    void impPto();
 private:
     int *x, *y;
 };
